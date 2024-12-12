@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+       
+            <nav class="nav bd-grid" style="background-color: #000000; color: #ffffff; position: fixed; width: 100%; top: 0; z-index: 1000; font-size: 1.2rem;">
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#home" class="nav__link active-link" style="color: #ffffff;">Home</a></li>
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#about" class="nav__link" style="color: #ffffff;">About</a></li>
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#skills" class="nav__link" style="color: #ffffff;">Skills</a></li>
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#work" class="nav__link" style="color: #ffffff;">Work</a></li>
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#experience" class="nav__link" style="color: #ffffff;">Experience</a></li>
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#freelancing" class="nav__link" style="color: #ffffff;">Freelance</a></li>
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#achievements" class="nav__link" style="color: #ffffff;">Achievements</a></li>
+                        <li class="nav__item" style="margin-bottom: 15px;"><a href="#contact" class="nav__link" style="color: #ffffff;">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu' style="color: #ffffff;"></i>
+                </div>
+            </nav>
+       
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h1 class="home__title" style="font-family: 'Times New Roman', serif; font-size: 53px;">Hi,<br>I'm <span class="home__title-color">Pranav</span><br> AI & Data Science Engineer</h1>
+
+                        <div class="home__buttons">
+                            <a href="#contact" class="button" style="color: rgb(0, 131, 231);">Contact</a>
+                            <div class="resume__buttons">
+                                <a href="Pranav-Resume.pdf" class="button" download style="margin-left: 10px; background: #4CAF50;">
+                                    <i class='bx bx-download'></i> AI/ML Resume
+                                </a>
+                                <a href="PranavNarkhede-Resume.pdf" class="button" download style="margin-left: 10px; background: #2196F3;">
+                                    <i class='bx bx-download'></i> Full Stack Resume
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/picture.jpg" alt="Pranav Narkhede">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Pranav Narkhede</h2>
+                        <p class="about__text">A passionate <span class="about__text-color">AI and Data Science</span> student at K J Somaiya Institute of Technology, Mumbai. Currently pursuing my Bachelor of Technology with hands-on experience in Artificial Intelligence, Machine Learning, backend development, cloud hosting solutions, and App development.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Technical Expertise</h2>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-alt skills__icon'></i>
+                                <span class="skills__name">Languages</span>
+                            </div>
+                            <p class="skills__description">C, Python, HTML, CSS, Java, Dart</p>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">Libraries</span>
+                            </div>
+                            <p class="skills__description">NumPy, Pandas, Matplotlib, OpenCV, AR Core, TensorFlow, Sci-kit, PyTorch, Selenium</p>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-server skills__icon'></i>
+                                <span class="skills__name">Frameworks & Tech</span>
+                            </div>
+                            <p class="skills__description">Flutter, Django, APIs, IoT, Flask, AWS, Oracle, MLOps</p>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">Databases</span>
+                            </div>
+                            <p class="skills__description">MySQL, Firebase, PostgreSQL, MongoDB, SQLite</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== EXPERIENCE ====-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experience</h2>
+
+                <div class="experience__container">
+                    <div class="experience__scroll">
+                        <div class="experience__item">
+                            <h3 class="experience__title">S4DS, KSJIT Chapter</h3>
+                            <p class="experience__subtitle">App Development Intern</p>
+                            <ul class="experience__list">
+                                <li>Developed Android apps using Flutter framework and Firebase</li>
+                                <li>Worked with REST APIs and full-stack development</li>
+                                <li>Collaborated on various in-house projects</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience__item">
+                            <h3 class="experience__title">New Leap Labs</h3>
+                            <p class="experience__subtitle">IoT Intern</p>
+                            <ul class="experience__list">
+                                <li>Designed IoT products integrated with AI</li>
+                                <li>Worked on ground station and established communication with satellite</li>
+                                <li>Gained expertise in Satellite technology and launched Belief Sat 0 Satellite With ISRO</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience__item">
+                            <h3 class="experience__title">Godavari Bio Refineries</h3>
+                            <p class="experience__subtitle">App Developer and Data Analyst</p>
+                            <ul class="experience__list">
+                                <li>Built ai powered geofencing App for Godavari Bio Refineries</li>
+                                <li>Handled 500000 KML files for trainig ai model and also storing them into database</li>
+                                <li>Currently app is used by 100+ employes on daily basis</li>
+                                <li>Gained expertise in Django, Flutter, AWS, PostgreSQL, Google Maps API, and GIS</ul>li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== FREELANCING =====-->
+            <section class="freelancing section">
+                <h2 class="section-title">Freelancing Services</h2>
+
+                <div class="freelancing__container bd-grid">
+                    <div class="freelancing__content">
+                        <h3 class="freelancing__subtitle">Available for Freelance Projects</h3>
+                        <p class="freelancing__text">I offer professional services in:</p>
+                        <ul class="freelancing__list">
+                            <li><i class='bx bx-check'></i> AI & Machine Learning Solutions</li>
+                            <li><i class='bx bx-check'></i> Mobile App Development (Flutter)</li>
+                            <li><i class='bx bx-check'></i> Backend Development (Django/Flask)</li>
+                            <li><i class='bx bx-check'></i> AWS Cloud Solutions & Hosting</li>
+                            <li><i class='bx bx-check'></i> MLOps & Data Pipeline Development</li>
+                        </ul>
+                        <p class="freelancing__contact">📧 Contact me at: pranavnarkhede2018@gmail.com</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== ACHIEVEMENTS ====-->
+            <section class="achievements section" id="achievements">
+                <h2 class="section-title">Achievements</h2>
+
+                <div class="achievements__container bd-grid">
+                    <div class="achievements__item">
+                        <i class='bx bx-medal achievements__icon'></i>
+                        <h3 class="achievements__title">ISRO Recognition</h3>
+                        <p class="achievements__description">Letter of Appreciation for contribution to Belief Sat 0 satellite project which was launched by ISRO India</p>
+                    </div>
+
+                    <div class="achievements__item">
+                        <i class='bx bx-trophy achievements__icon'></i>
+                        <h3 class="achievements__title">Hackathon Success</h3>
+                        <ul class="achievements__list">
+                            <li>Winner at Code Odyssey Hackathon - KJSIT</li>
+                            <li>2nd Runner Up - Need for Code Hackathon</li>
+                            <li>Runner Up - Project Development Boot Camp</li>
+                        </ul>
+                    </div>
+                    <div class="achievements__item">
+                        <i class='bx bx-medal achievements__icon'></i>
+                        <h3 class="achievements__title">Organising Mumbai's First 36 Hour Hackathon</h3>
+                        <p class="achievements__description">Letter of Appreciation for organising Mumbai's First 36 Hour Hackathon with 300+ participants and 10+ sponsors</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">⚡ Featured Projects ⚡</h2>
+
+                <div class="work__container">
+                    <div class="work__scroll">
+                        <div class="work__scroll-content">
+                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;">
+                                <div class="work__img-container">
+                                    <img 
+                                        src="assets/img/paletos.png" 
+                                        alt="Paletos Restaurant"
+                                        loading="lazy"
+                                        class="work__img-actual"
+                                        onload="this.classList.add('loaded')"
+                                    >
+                                  
+
+                                </div>
+                                <div class="work__content">
+                                    <h3 class="work__title">🏪 Paletos Restaurant</h3>
+                                    <ul class="work__list">
+                                        <li><i class='bx bx-check-circle'></i> MLOps pipeline for restaurant network processing 2M+ rows of sales data</li>
+                                        <li><i class='bx bx-check-circle'></i> Implemented ARIMA model with live data feedback for sales prediction</li>
+                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Python, MLOps, ARIMA,Random Forest, Django, React.js</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;">
+                                <div class="work__img-container">
+                                    <img 
+                                        src="assets/img/fontfusion.png" 
+                                        alt="FontFusion"
+                                        loading="lazy"
+                                        class="work__img-actual"
+                                        onload="this.classList.add('loaded')"
+                                    >
+                                    
+                                </div>
+                                <div class="work__content">
+                                    <h3 class="work__title">✒️ FontFusion</h3>
+                                    <ul class="work__list">
+                                        <li><i class='bx bx-check-circle'></i> Font generation app combining styles using AI models</li>
+                                        <li><i class='bx bx-check-circle'></i> Built GAN and VAE models trained on Google Font dataset</li>
+                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Django, PyTorch, REST APIs, GAN, VAE</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;">
+                                <div class="work__img-container">
+                                    <img 
+                                        src="assets/img/neerja.png" 
+                                        alt="Neerja"
+                                        loading="lazy"
+                                        class="work__img-actual"
+                                        onload="this.classList.add('loaded')"
+                                    >
+                                
+                                </div>
+                                <div class="work__content">
+                                    <h3 class="work__title">🚨 Neerja</h3>
+                                    <ul class="work__list">
+                                        <li><i class='bx bx-check-circle'></i> Human trafficking detection and prevention system</li>
+                                        <li><i class='bx bx-check-circle'></i> Trained MobileNet & BiLSTM on 2000+ videos for activity detection</li>
+                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, OpenCV, pytorch,Django,SQLite</s></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+
+                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;"    >
+                                <div class="work__img-container">
+                                    <img 
+                                        src="assets/img/mimicai.png" 
+                                        alt="Mimic AI"
+                                        loading="lazy"
+                                        class="work__img-actual"
+                                        onload="this.classList.add('loaded')"
+                                    >
+                              
+                                </div>
+                                <div class="work__content">
+                                    <h3 class="work__title">🔊 Mimic AI</h3>
+                                    <ul class="work__list">
+                                        <li><i class='bx bx-check-circle'></i> Voice cloning system with emotion preservation</li>
+                                        <li><i class='bx bx-check-circle'></i> Implemented Tacotron and WaveRNN pipeline for synthesis</li>
+                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Django, TensorFlow, PyTorch, Web Audio API</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;"    >
+                                <div class="work__img-container">
+                                    <img 
+                                        src="assets\img\steps.jpeg" 
+                                        alt="S.T.E.P.S"
+                                        loading="lazy"
+                                        class="work__img-actual"
+                                        onload="this.classList.add('loaded')"
+                                    >
+                                  
+
+                                </div>
+                                <div class="work__content">
+                                    <h3 class="work__title">🌱 S.T.E.P.S</h3>
+                                    <ul class="work__list">
+                                        <li><i class='bx bx-check-circle'></i> Agricultural plot management system with geofencing</li>
+                                        <li><i class='bx bx-check-circle'></i> Integrated Google Maps API with real-time tracking</li>
+                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Django, MySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                           
+
+                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;"            >
+                                <div class="work__img-container">
+                                    <img 
+                                        src="https://picsum.photos/300/200?random=6" 
+                                        alt="TrackFit"
+                                        loading="lazy"
+                                        class="work__img-actual"
+                                        onload="this.classList.add('loaded')"
+                                    >
+                                    
+                                </div>
+                                <div class="work__content">
+                                    <h3 class="work__title">🏃 TrackFit</h3>
+                                    <ul class="work__list">
+                                        <li><i class='bx bx-check-circle'></i> AR-powered fitness app with posture correction</li>
+                                        <li><i class='bx bx-check-circle'></i> Implemented GAN for personalized meal planning</li>
+                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, React.js, Django, AR Core, OpenCV</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="work__item" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.team_vision.audio_library ' "     style="cursor: pointer;"            >
+                                <div class="work__img-container">
+                                    <img 
+                                        src="assets/img/teamvision.png" 
+                                        alt="Team Vision"
+                                        loading="lazy"
+                                        class="work__img-actual"
+                                        onload="this.classList.add('loaded')"
+                                    >
+                                  
+                                </div>
+                                <div class="work__content">
+                                    <h3 class="work__title">👥 Team Vision Audio Library</h3>
+                                    <ul class="work__list">
+                                        <li><i class='bx bx-check-circle'></i> Audio book platform for visually challenged users</li>
+                                        <li><i class='bx bx-check-circle'></i> Built volunteer upload system with user management</li>
+                                        <li><i class='bx bx-check-circle'></i> Currently used by 100+ visually challenged users and 15+ volunteers</li>
+                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Firebase, Java</li>
+                                        <li><i class='bx bx-link'></i> <a href="https://play.google.com/store/apps/details?id=com.team_vision.audio_library" target="_blank">Available on Play Store</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Get in Touch</h3>
+                        <p class="contact__text">Feel free to reach out for collaborations or questions!</p>
+                        
+                        <div class="contact__details">
+                            <p><i class='bx bx-envelope'></i> pranavnarkhede2018@gmail.com</p>
+                            <div class="contact__social">
+                                <a href="https://www.linkedin.com/in/pranav-narkhede-15905b327/" target="_blank" class="contact__social-icon"><i class='bx bxl-linkedin'></i> LinkedIn</a>
+                                <a href="https://github.com/Pranav-stac" target="_blank" class="contact__social-icon"><i class='bx bxl-github'></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__space"></div>
+
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+                        <!-- Add your Web3Forms access key -->
+                        <input type="hidden" name="access_key" value="801a49b9-dce9-462f-868f-08c85fb90dc5">
+                        
+                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" cols="0" rows="10" class="contact__input" placeholder="Message" required></textarea>
+                        
+                        <!-- Optional Web3Forms configurations -->
+                        <input type="hidden" name="subject" value="New Portfolio Contact">
+                        <input type="hidden" name="redirect" value="thanks.html">
+                        
+                        <button type="submit" class="contact__button button">Send</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

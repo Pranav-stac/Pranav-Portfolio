@@ -20,9 +20,9 @@
                         <li class="nav__item" style="margin-bottom: 20px;"><a href="#home" class="nav__link active-link" style="color: #ffffff;">Home</a></li>
                         <li class="nav__item" style="margin-bottom: 20px;"><a href="#about" class="nav__link" style="color: #ffffff;">About</a></li>
                         <li class="nav__item" style="margin-bottom: 20px;"><a href="#skills" class="nav__link" style="color: #ffffff;">Skills</a></li>
-                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#work" class="nav__link" style="color: #ffffff;">Work</a></li>
-                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#experience" class="nav__link" style="color: #ffffff;">Experience</a></li>
                         <li class="nav__item" style="margin-bottom: 20px;"><a href="#freelancing" class="nav__link" style="color: #ffffff;">Freelance</a></li>
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#experience" class="nav__link" style="color: #ffffff;">Experience</a></li>
+                        <li class="nav__item" style="margin-bottom: 20px;"><a href="#work" class="nav__link" style="color: #ffffff;">Work</a></li>
                         <li class="nav__item" style="margin-bottom: 20px;"><a href="#achievements" class="nav__link" style="color: #ffffff;">Achievements</a></li>
                         <li class="nav__item" style="margin-bottom: 15px;"><a href="#contact" class="nav__link" style="color: #ffffff;">Contact</a></li>
                     </ul>
@@ -39,7 +39,7 @@
             <section class="home bd-grid" id="home">
                 <div class="home__content">
                     <div class="home__data">
-                        <h1 class="home__title" style="font-family: 'Times New Roman', serif; font-size: 53px;">Hi,<br>I'm <span class="home__title-color">Pranav</span><br> AI & Data Science Engineer</h1>
+                        <h1 class="home__title" style="font-family: 'Times New Roman', serif; font-size: 53px;">Hi,<br>I'm <span class="home__title-color">Pranav!</span><br> AI & Data Science Engineer</h1>
 
                         <div class="home__buttons">
                             <a href="#contact" class="button" style="color: rgb(0, 131, 231);">Contact</a>
@@ -77,40 +77,63 @@
                 <h2 class="section-title">Skills</h2>
 
                 <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Technical Expertise</h2>
+                    <div style="text-align: center; width: 100%; display: flex; flex-direction: column; align-items: center;">
+                        <h2 class="skills__subtitle" style="color: #00ffff;">Technical Expertise</h2>
                         
-                        <div class="skills__data">
-                            <div class="skills__names">
+                        <div class="skills__data" style="width: 100%; max-width: 600px; margin: 20px auto; padding: 15px; border: 1px solid #00ffff; border-radius: 10px; text-align: center;">
+                            <div class="skills__names" style="margin-bottom: 10px;">
                                 <i class='bx bx-code-alt skills__icon'></i>
                                 <span class="skills__name">Languages</span>
                             </div>
                             <p class="skills__description">C, Python, HTML, CSS, Java, Dart</p>
                         </div>
 
-                        <div class="skills__data">
-                            <div class="skills__names">
+                        <div class="skills__data" style="width: 100%; max-width: 600px; margin: 20px auto; padding: 15px; border: 1px solid #00ffff; border-radius: 10px; text-align: center;">
+                            <div class="skills__names" style="margin-bottom: 10px;">
                                 <i class='bx bx-data skills__icon'></i>
                                 <span class="skills__name">Libraries</span>
                             </div>
                             <p class="skills__description">NumPy, Pandas, Matplotlib, OpenCV, AR Core, TensorFlow, Sci-kit, PyTorch, Selenium</p>
                         </div>
 
-                        <div class="skills__data">
-                            <div class="skills__names">
+                        <div class="skills__data" style="width: 100%; max-width: 600px; margin: 20px auto; padding: 15px; border: 1px solid #00ffff; border-radius: 10px; text-align: center;">
+                            <div class="skills__names" style="margin-bottom: 10px;">
                                 <i class='bx bx-server skills__icon'></i>
                                 <span class="skills__name">Frameworks & Tech</span>
                             </div>
                             <p class="skills__description">Flutter, Django, APIs, IoT, Flask, AWS, Oracle, MLOps</p>
                         </div>
 
-                        <div class="skills__data">
-                            <div class="skills__names">
+                        <div class="skills__data" style="width: 100%; max-width: 600px; margin: 20px auto; padding: 15px; border: 1px solid #00ffff; border-radius: 10px; text-align: center;">
+                            <div class="skills__names" style="margin-bottom: 10px;">
                                 <i class='bx bx-data skills__icon'></i>
                                 <span class="skills__name">Databases</span>
                             </div>
                             <p class="skills__description">MySQL, Firebase, PostgreSQL, MongoDB, SQLite</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+             <!--===== FREELANCING =====-->
+             <section class="freelancing section" id="freelancing">
+                <h2 class="section-title">Freelancing Services</h2>
+
+                <div class="freelancing__container bd-grid">
+                    <div class="freelancing__content">
+                        <h3 class="freelancing__subtitle">Available for Freelance Projects</h3>
+                        <p class="freelancing__text">I offer professional services in:</p>
+                        <ul class="freelancing__list">
+                            <li><i class='bx bx-check'></i> AI & Machine Learning Solutions</li>
+                            <li><i class='bx bx-check'></i> Mobile App Development (Flutter)</li>
+                            <li><i class='bx bx-check'></i> Backend Development (Django/Flask)</li>
+                            <li><i class='bx bx-check'></i> AWS Cloud Solutions & Hosting</li>
+                            <li><i class='bx bx-check'></i> MLOps & Data Pipeline Development</li>
+                        </ul>
+                        <p class="freelancing__clients"><strong>Past Clients:</strong> Team Vision Foundation, Saffair, Godavari Bio Refineries, and other valued clients</p>
+                        <p class="freelancing__contact">
+                            <span onclick="window.location.href='mailto:pranavnarkhede2018@gmail.com';" style="cursor: pointer;">📧 Contact me at: pranavnarkhede2018@gmail.com</span> | 
+                            <span onclick="window.location.href='tel:+917620260232';" style="cursor: pointer;">📱 +91 7620260232</span>
+                        </p>
                     </div>
                 </div>
             </section>
@@ -146,7 +169,7 @@
                             <p class="experience__subtitle">App Developer and Data Analyst</p>
                             <ul class="experience__list">
                                 <li>Built ai powered geofencing App for Godavari Bio Refineries</li>
-                                <li>Handled 500000 KML files for trainig ai model and also storing them into database</li>
+                                <li>Handled 50000 KML files for trainig ai model and also storing them into database</li>
                                 <li>Currently app is used by 100+ employes on daily basis</li>
                                 <li>Gained expertise in Django, Flutter, AWS, PostgreSQL, Google Maps API, and GIS</ul>li>
                             </ul>
@@ -155,53 +178,7 @@
                 </div>
             </section>
 
-            <!--===== FREELANCING =====-->
-            <section class="freelancing section">
-                <h2 class="section-title">Freelancing Services</h2>
-
-                <div class="freelancing__container bd-grid">
-                    <div class="freelancing__content">
-                        <h3 class="freelancing__subtitle">Available for Freelance Projects</h3>
-                        <p class="freelancing__text">I offer professional services in:</p>
-                        <ul class="freelancing__list">
-                            <li><i class='bx bx-check'></i> AI & Machine Learning Solutions</li>
-                            <li><i class='bx bx-check'></i> Mobile App Development (Flutter)</li>
-                            <li><i class='bx bx-check'></i> Backend Development (Django/Flask)</li>
-                            <li><i class='bx bx-check'></i> AWS Cloud Solutions & Hosting</li>
-                            <li><i class='bx bx-check'></i> MLOps & Data Pipeline Development</li>
-                        </ul>
-                        <p class="freelancing__contact">📧 Contact me at: pranavnarkhede2018@gmail.com</p>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== ACHIEVEMENTS ====-->
-            <section class="achievements section" id="achievements">
-                <h2 class="section-title">Achievements</h2>
-
-                <div class="achievements__container bd-grid">
-                    <div class="achievements__item">
-                        <i class='bx bx-medal achievements__icon'></i>
-                        <h3 class="achievements__title">ISRO Recognition</h3>
-                        <p class="achievements__description">Letter of Appreciation for contribution to Belief Sat 0 satellite project which was launched by ISRO India</p>
-                    </div>
-
-                    <div class="achievements__item">
-                        <i class='bx bx-trophy achievements__icon'></i>
-                        <h3 class="achievements__title">Hackathon Success</h3>
-                        <ul class="achievements__list">
-                            <li>Winner at Code Odyssey Hackathon - KJSIT</li>
-                            <li>2nd Runner Up - Need for Code Hackathon</li>
-                            <li>Runner Up - Project Development Boot Camp</li>
-                        </ul>
-                    </div>
-                    <div class="achievements__item">
-                        <i class='bx bx-medal achievements__icon'></i>
-                        <h3 class="achievements__title">Organising Mumbai's First 36 Hour Hackathon</h3>
-                        <p class="achievements__description">Letter of Appreciation for organising Mumbai's First 36 Hour Hackathon with 300+ participants and 10+ sponsors</p>
-                    </div>
-                </div>
-            </section>
+           
 
             <!--===== WORK =====-->
             <section class="work section" id="work">
@@ -210,7 +187,7 @@
                 <div class="work__container">
                     <div class="work__scroll">
                         <div class="work__scroll-content">
-                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;">
+                            <div class="work__item" onclick="window.location.href='construction.html';">
                                 <div class="work__img-container">
                                     <img 
                                         src="assets/img/paletos.png" 
@@ -219,15 +196,13 @@
                                         class="work__img-actual"
                                         onload="this.classList.add('loaded')"
                                     >
-                                  
-
                                 </div>
                                 <div class="work__content">
                                     <h3 class="work__title">🏪 Paletos Restaurant</h3>
                                     <ul class="work__list">
                                         <li><i class='bx bx-check-circle'></i> MLOps pipeline for restaurant network processing 2M+ rows of sales data</li>
                                         <li><i class='bx bx-check-circle'></i> Implemented ARIMA model with live data feedback for sales prediction</li>
-                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Python, MLOps, ARIMA,Random Forest, Django, React.js</li>
+                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Python, MLOps, ARIMA, Random Forest, Django, React.js</li>
                                     </ul>
                                 </div>
                             </div>
@@ -256,7 +231,7 @@
                             <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;">
                                 <div class="work__img-container">
                                     <img 
-                                        src="assets/img/neerja.png" 
+                                        src="assets/img/Neerja.png" 
                                         alt="Neerja"
                                         loading="lazy"
                                         class="work__img-actual"
@@ -366,6 +341,34 @@
                     </div>
                 </div>
             </section>
+            
+            <!--===== ACHIEVEMENTS ====-->
+            <section class="achievements section" id="achievements" onclick="window.location.href='https://www.linkedin.com/in/pranav-narkhede-15905b327/details/honors/';" style="cursor: pointer;">
+                <h2 class="section-title">Achievements</h2>
+
+                <div class="achievements__container bd-grid">
+                    <div class="achievements__item">
+                        <i class='bx bx-medal achievements__icon'></i>
+                        <h3 class="achievements__title">ISRO Recognition</h3>
+                        <p class="achievements__description">Letter of Appreciation for contribution to Belief Sat 0 satellite project which was launched by ISRO India</p>
+                    </div>
+
+                    <div class="achievements__item">
+                        <i class='bx bx-trophy achievements__icon'></i>
+                        <h3 class="achievements__title">Hackathon Success</h3>
+                        <ul class="achievements__list">
+                            <li>Winner at Code Odyssey Hackathon - KJSIT</li>
+                            <li>2nd Runner Up - Need for Code Hackathon</li>
+                            <li>Runner Up - Project Development Boot Camp</li>
+                        </ul>
+                    </div>
+                    <div class="achievements__item">
+                        <i class='bx bx-medal achievements__icon'></i>
+                        <h3 class="achievements__title">Organising Mumbai's First 36 Hour Hackathon</h3>
+                        <p class="achievements__description">Letter of Appreciation for organising Mumbai's First 36 Hour Hackathon with 300+ participants and 10+ sponsors</p>
+                    </div>
+                </div>
+            </section>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
@@ -379,8 +382,12 @@
                         <div class="contact__details">
                             <p><i class='bx bx-envelope'></i> pranavnarkhede2018@gmail.com</p>
                             <div class="contact__social">
-                                <a href="https://www.linkedin.com/in/pranav-narkhede-15905b327/" target="_blank" class="contact__social-icon"><i class='bx bxl-linkedin'></i> LinkedIn</a>
-                                <a href="https://github.com/Pranav-stac" target="_blank" class="contact__social-icon"><i class='bx bxl-github'></i> GitHub</a>
+                                <a href="https://www.linkedin.com/in/pranav-narkhede-15905b327/" target="_blank" class="contact__social-icon" style="display: inline-block; padding: 10px 20px; margin: 5px; background-color: #0077B5; color: white; border-radius: 5px; text-decoration: none; transition: transform 0.3s ease;">
+                                    <i class='bx bxl-linkedin'></i> LinkedIn
+                                </a>
+                                <a href="https://github.com/Pranav-stac" target="_blank" class="contact__social-icon" style="display: inline-block; padding: 10px 20px; margin: 5px; background-color: #333; color: white; border-radius: 5px; text-decoration: none; transition: transform 0.3s ease;">
+                                    <i class='bx bxl-github'></i> GitHub
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -413,5 +420,7 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+
+     
     </body>
 </html>

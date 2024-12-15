@@ -44,11 +44,11 @@
                         <div class="home__buttons">
                             <a href="#contact" class="button" style="color: rgb(0, 131, 231);">Contact</a>
                             <div class="resume__buttons">
-                                <a href="Pranav-Resume.pdf" class="button" download style="margin-left: 10px; background: #4CAF50;">
-                                    <i class='bx bx-download'></i> AI/ML Resume
+                                <a href="Pranav-Resume.pdf" class="button" target="_blank" style="margin-left: 10px; background: #4CAF50;">
+                                    <i class='bx bx-link-external'></i> AI/ML Resume
                                 </a>
-                                <a href="PranavNarkhede-Resume.pdf" class="button" download style="margin-left: 10px; background: #2196F3;">
-                                    <i class='bx bx-download'></i> Full Stack Resume
+                                <a href="PranavNarkhede-Resume.pdf" class="button" target="_blank" style="margin-left: 10px; background: #2196F3;">
+                                    <i class='bx bx-link-external'></i> Full Stack Resume
                                 </a>
                             </div>
                         </div>
@@ -171,7 +171,7 @@
                                 <li>Built ai powered geofencing App for Godavari Bio Refineries</li>
                                 <li>Handled 50000 KML files for trainig ai model and also storing them into database</li>
                                 <li>Currently app is used by 100+ employes on daily basis</li>
-                                <li>Gained expertise in Django, Flutter, AWS, PostgreSQL, Google Maps API, and GIS</ul>li>
+                                <li>Gained expertise in Django, Flutter, AWS, PostgreSQL, Google Maps API, and GIS</ul>
                             </ul>
                         </div>
                     </div>
@@ -378,32 +378,75 @@
                         <p class="contact__text">Feel free to reach out for collaborations or questions!</p>
                         
                         <div class="contact__details">
-                            <p><i class='bx bx-envelope'></i> pranavnarkhede2018@gmail.com</p>
-                            <div class="contact__social">
-                                <a href="https://www.linkedin.com/in/pranav-narkhede-15905b327/" target="_blank" class="contact__social-icon" style="display: inline-block; padding: 10px 20px; margin: 5px; background-color: #0077B5; color: white; border-radius: 5px; text-decoration: none; transition: transform 0.3s ease;">
-                                    <i class='bx bxl-linkedin'></i> LinkedIn
+                            <!-- Social Media Links with Hover Effects -->
+                            <div class="contact__social" style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+                                <a href="https://www.linkedin.com/in/pranav-narkhede-15905b327/" target="_blank" class="contact__social-icon" 
+                                   style="display: flex; align-items: center; padding: 12px 24px; background-color: #0077B5; color: white; 
+                                          border-radius: 8px; text-decoration: none; transition: all 0.3s ease;">
+                                    <i class='bx bxl-linkedin' style="margin-right: 8px; font-size: 20px;"></i> LinkedIn
                                 </a>
-                                <a href="https://github.com/Pranav-stac" target="_blank" class="contact__social-icon" style="display: inline-block; padding: 10px 20px; margin: 5px; background-color: #333; color: white; border-radius: 5px; text-decoration: none; transition: transform 0.3s ease;">
-                                    <i class='bx bxl-github'></i> GitHub
+                                
+                                <a href="https://github.com/Pranav-stac" target="_blank" class="contact__social-icon" 
+                                   style="display: flex; align-items: center; padding: 12px 24px; background-color: #333; color: white; 
+                                          border-radius: 8px; text-decoration: none; transition: all 0.3s ease;">
+                                    <i class='bx bxl-github' style="margin-right: 8px; font-size: 20px;"></i> GitHub
+                                </a>
+
+                                <a href="https://wa.me/+917620260232" target="_blank" class="contact__social-icon" 
+                                   style="display: flex; align-items: center; padding: 12px 24px; background-color: #25D366; color: white; 
+                                          border-radius: 8px; text-decoration: none; transition: all 0.3s ease;">
+                                    <i class='bx bxl-whatsapp' style="margin-right: 8px; font-size: 20px;"></i> WhatsApp
+                                </a>
+
+                                <a href="https://www.instagram.com/pr4n4virl/" target="_blank" class="contact__social-icon" 
+                                   style="display: flex; align-items: center; padding: 12px 24px; background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); 
+                                          color: white; border-radius: 8px; text-decoration: none; transition: all 0.3s ease;">
+                                    <i class='bx bxl-instagram' style="margin-right: 8px; font-size: 20px;"></i> Instagram
+                                </a>
+
+                                <a href="mailto:pranavnarkhede2018@gmail.com" class="contact__social-icon" 
+                                   style="display: flex; align-items: center; padding: 12px 24px; background-color: #EA4335; color: white; 
+                                          border-radius: 8px; text-decoration: none; transition: all 0.3s ease;">
+                                    <i class='bx bx-envelope' style="margin-right: 8px; font-size: 20px;"></i> Email
                                 </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="contact__space"></div>
 
-                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
-                        <!-- Add your Web3Forms access key -->
+                    <!-- Enhanced Contact Form -->
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact__form" 
+                          style="background: rgba(255, 255, 255, 0.05); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px);">
                         <input type="hidden" name="access_key" value="801a49b9-dce9-462f-868f-08c85fb90dc5">
                         
-                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
-                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
-                        <textarea name="message" cols="0" rows="10" class="contact__input" placeholder="Message" required></textarea>
+                        <div style="margin-bottom: 20px;">
+                            <input type="text" name="name" placeholder="Your Name" class="contact__input" required
+                                   style="width: 100%; padding: 12px; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; 
+                                          background: rgba(255, 255, 255, 0.05); color: white; transition: all 0.3s ease;">
+                        </div>
                         
-                        <!-- Optional Web3Forms configurations -->
+                        <div style="margin-bottom: 20px;">
+                            <input type="email" name="email" placeholder="Your Email" class="contact__input" required
+                                   style="width: 100%; padding: 12px; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; 
+                                          background: rgba(255, 255, 255, 0.05); color: white; transition: all 0.3s ease;">
+                        </div>
+                        
+                        <div style="margin-bottom: 20px;">
+                            <textarea name="message" rows="6" placeholder="Your Message" class="contact__input" required
+                                      style="width: 100%; padding: 12px; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; 
+                                             background: rgba(255, 255, 255, 0.05); color: white; transition: all 0.3s ease;"></textarea>
+                        </div>
+
                         <input type="hidden" name="subject" value="New Portfolio Contact">
                         <input type="hidden" name="redirect" value="thanks.html">
                         
-                        <button type="submit" class="contact__button button">Send</button>
+                        <button type="submit" class="contact__button button" 
+                                style="width: 100%; padding: 12px; background: linear-gradient(45deg, #2196F3, #00BCD4); 
+                                       border: none; border-radius: 8px; color: white; font-weight: bold; cursor: pointer; 
+                                       transition: all 0.3s ease;">
+                            Send Message
+                        </button>
                     </form>
                 </div>
             </section>

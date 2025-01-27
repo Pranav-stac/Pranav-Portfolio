@@ -9,6 +9,75 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
+        <!-- SEO Meta Tags -->
+        <title>Pranav Narkhede - AI & Data Science Engineer | Full Stack Developer</title>
+        <meta name="description" content="Pranav Narkhede is an AI and Data Science Engineer specializing in Machine Learning, Flutter development, and Full Stack solutions. Experienced in MLOps, Cloud Solutions, and App Development.">
+        <meta name="keywords" content="Pranav Narkhede, AI Engineer, Data Science, Machine Learning, Flutter Developer, Full Stack Developer, Mumbai, KJSIT, MLOps, Cloud Solutions">
+        <meta name="author" content="Pranav Narkhede">
+        
+        <!-- Open Graph Meta Tags for Social Media -->
+        <meta property="og:title" content="Pranav Narkhede - AI & Data Science Engineer">
+        <meta property="og:description" content="AI/ML Engineer and Full Stack Developer specializing in Machine Learning, Flutter, and Cloud Solutions">
+        <meta property="og:image" content="https://pranav-stac.xyz/assets/img/picture.jpg">
+        <meta property="og:url" content="https://pranav-stac.xyz">
+        <meta property="og:type" content="website">
+        
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Pranav Narkhede - AI & Data Science Engineer">
+        <meta name="twitter:description" content="AI/ML Engineer and Full Stack Developer specializing in Machine Learning, Flutter, and Cloud Solutions">
+        <meta name="twitter:image" content="https://pranav-stac.xyz/assets/img/picture.jpg">
+        
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://pranav-stac.xyz">
+        
+        <!-- Robots Meta Tag -->
+        <meta name="robots" content="index, follow">
+        
+        <!-- Schema.org Markup -->
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Pranav Narkhede",
+            "jobTitle": "AI & Data Science Engineer",
+            "alumniOf": "K J Somaiya Institute of Technology",
+            "url": "https://pranav-stac.xyz",
+            "image": "https://pranav-stac.xyz/assets/img/picture.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mumbai",
+                "addressRegion": "Maharashtra",
+                "addressCountry": "India"
+            },
+            "sameAs": [
+                "https://www.linkedin.com/in/pranav-narkhede-15905b327/",
+                "https://github.com/Pranav-stac",
+                "https://www.instagram.com/pr4n4virl/"
+            ],
+            "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Flutter Development", "Full Stack Development", "Cloud Solutions", "MLOps", "AWS", "IoT"],
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Freelance Professional"
+            },
+            "award": [
+                "ISRO Recognition for Belief Sat 0 satellite project",
+                "Winner at Code Odyssey Hackathon - KJSIT",
+                "2nd Runner Up - Need for Code Hackathon"
+            ]
+        }
+        </script>
+
+        <!-- Add more meta tags for better SEO -->
+        <meta name="geo.region" content="IN-MH" />
+        <meta name="geo.placename" content="Mumbai" />
+        <meta name="geo.position" content="19.0760;72.8777" />
+        <meta name="ICBM" content="19.0760, 72.8777" />
+
+        <!-- Add this in the head section -->
+        <link rel="alternate" hreflang="en" href="https://pranav-stac.xyz" />
+        <meta name="language" content="English">
+
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -57,8 +126,8 @@
             </section>
 
             <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
+            <section class="about section" id="about" itemscope itemtype="http://schema.org/AboutPage">
+                <h2 class="section-title" itemprop="name">About</h2>
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
@@ -179,13 +248,13 @@
             </section>
 
             <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">⚡ Featured Projects ⚡</h2>
+            <section class="work section" id="work" itemscope itemtype="http://schema.org/CollectionPage">
+                <h2 class="section-title" itemprop="name">⚡ Featured Projects ⚡</h2>
 
                 <div class="work__container">
                     <div class="work__scroll">
                         <div class="work__scroll-content">
-                            <div class="work__item" onclick="window.location.href='construction.html';">
+                            <div class="work__item" itemprop="hasPart" itemscope itemtype="http://schema.org/CreativeWork" onclick="window.location.href='construction.html';">
                                 <div class="work__img-container">
                                     <img 
                                         src="assets/img/paletos.png" 
@@ -196,16 +265,18 @@
                                     >
                                 </div>
                                 <div class="work__content">
-                                    <h3 class="work__title">🏪 Paletos Restaurant</h3>
-                                    <ul class="work__list">
-                                        <li><i class='bx bx-check-circle'></i> MLOps pipeline for restaurant network processing 2M+ rows of sales data</li>
-                                        <li><i class='bx bx-check-circle'></i> Implemented ARIMA model with live data feedback for sales prediction</li>
-                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Python, MLOps, ARIMA, Random Forest, Django, React.js</li>
-                                    </ul>
+                                    <h3 class="work__title" itemprop="name">🏪 Paletos Restaurant</h3>
+                                    <div itemprop="description">
+                                        <ul class="work__list">
+                                            <li><i class='bx bx-check-circle'></i> MLOps pipeline for restaurant network processing 2M+ rows of sales data</li>
+                                            <li><i class='bx bx-check-circle'></i> Implemented ARIMA model with live data feedback for sales prediction</li>
+                                            <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Python, MLOps, ARIMA, Random Forest, Django, React.js</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;">
+                            <div class="work__item" itemprop="hasPart" itemscope itemtype="http://schema.org/CreativeWork" onclick="window.location.href='construction.html';" style="cursor: pointer;">
                                 <div class="work__img-container">
                                     <img 
                                         src="assets/img/fontfusion.png" 
@@ -217,16 +288,18 @@
                                     
                                 </div>
                                 <div class="work__content">
-                                    <h3 class="work__title">✒️ FontFusion</h3>
-                                    <ul class="work__list">
-                                        <li><i class='bx bx-check-circle'></i> Font generation app combining styles using AI models</li>
-                                        <li><i class='bx bx-check-circle'></i> Built GAN and VAE models trained on Google Font dataset</li>
-                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Django, PyTorch, REST APIs, GAN, VAE</li>
-                                    </ul>
+                                    <h3 class="work__title" itemprop="name">✒️ FontFusion</h3>
+                                    <div itemprop="description">
+                                        <ul class="work__list">
+                                            <li><i class='bx bx-check-circle'></i> Font generation app combining styles using AI models</li>
+                                            <li><i class='bx bx-check-circle'></i> Built GAN and VAE models trained on Google Font dataset</li>
+                                            <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Django, PyTorch, REST APIs, GAN, VAE</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;">
+                            <div class="work__item" itemprop="hasPart" itemscope itemtype="http://schema.org/CreativeWork" onclick="window.location.href='construction.html';" style="cursor: pointer;">
                                 <div class="work__img-container">
                                     <img 
                                         src="assets/img/Neerja.png" 
@@ -238,17 +311,19 @@
                                 
                                 </div>
                                 <div class="work__content">
-                                    <h3 class="work__title">🚨 Neerja</h3>
-                                    <ul class="work__list">
-                                        <li><i class='bx bx-check-circle'></i> Human trafficking detection and prevention system</li>
-                                        <li><i class='bx bx-check-circle'></i> Trained MobileNet & BiLSTM on 2000+ videos for activity detection</li>
-                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, OpenCV, pytorch,Django,SQLite</s></li>
-                                    </ul>
+                                    <h3 class="work__title" itemprop="name">🚨 Neerja</h3>
+                                    <div itemprop="description">
+                                        <ul class="work__list">
+                                            <li><i class='bx bx-check-circle'></i> Human trafficking detection and prevention system</li>
+                                            <li><i class='bx bx-check-circle'></i> Trained MobileNet & BiLSTM on 2000+ videos for activity detection</li>
+                                            <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, OpenCV, pytorch,Django,SQLite</s></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             
 
-                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;"    >
+                            <div class="work__item" itemprop="hasPart" itemscope itemtype="http://schema.org/CreativeWork" onclick="window.location.href='construction.html';" style="cursor: pointer;"    >
                                 <div class="work__img-container">
                                     <img 
                                         src="assets/img/mimicai.png" 
@@ -260,15 +335,17 @@
                               
                                 </div>
                                 <div class="work__content">
-                                    <h3 class="work__title">🔊 Mimic AI</h3>
-                                    <ul class="work__list">
-                                        <li><i class='bx bx-check-circle'></i> Voice cloning system with emotion preservation</li>
-                                        <li><i class='bx bx-check-circle'></i> Implemented Tacotron and WaveRNN pipeline for synthesis</li>
-                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Django, TensorFlow, PyTorch, Web Audio API</li>
-                                    </ul>
+                                    <h3 class="work__title" itemprop="name">🔊 Mimic AI</h3>
+                                    <div itemprop="description">
+                                        <ul class="work__list">
+                                            <li><i class='bx bx-check-circle'></i> Voice cloning system with emotion preservation</li>
+                                            <li><i class='bx bx-check-circle'></i> Implemented Tacotron and WaveRNN pipeline for synthesis</li>
+                                            <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Django, TensorFlow, PyTorch, Web Audio API</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;"    >
+                            <div class="work__item" itemprop="hasPart" itemscope itemtype="http://schema.org/CreativeWork" onclick="window.location.href='construction.html';" style="cursor: pointer;"    >
                                 <div class="work__img-container">
                                     <img 
                                         src="assets\img\steps.jpeg" 
@@ -281,18 +358,20 @@
 
                                 </div>
                                 <div class="work__content">
-                                    <h3 class="work__title">🌱 S.T.E.P.S</h3>
-                                    <ul class="work__list">
-                                        <li><i class='bx bx-check-circle'></i> Agricultural plot management system with geofencing</li>
-                                        <li><i class='bx bx-check-circle'></i> Integrated Google Maps API with real-time tracking</li>
-                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Django, MySQL</li>
-                                    </ul>
+                                    <h3 class="work__title" itemprop="name">🌱 S.T.E.P.S</h3>
+                                    <div itemprop="description">
+                                        <ul class="work__list">
+                                            <li><i class='bx bx-check-circle'></i> Agricultural plot management system with geofencing</li>
+                                            <li><i class='bx bx-check-circle'></i> Integrated Google Maps API with real-time tracking</li>
+                                            <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Django, MySQL</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
                            
 
-                            <div class="work__item" onclick="window.location.href='construction.html';" style="cursor: pointer;"            >
+                            <div class="work__item" itemprop="hasPart" itemscope itemtype="http://schema.org/CreativeWork" onclick="window.location.href='construction.html';" style="cursor: pointer;"            >
                                 <div class="work__img-container">
                                     <img 
                                         src="https://picsum.photos/300/200?random=6" 
@@ -304,16 +383,18 @@
                                     
                                 </div>
                                 <div class="work__content">
-                                    <h3 class="work__title">🏃 TrackFit</h3>
-                                    <ul class="work__list">
-                                        <li><i class='bx bx-check-circle'></i> AR-powered fitness app with posture correction</li>
-                                        <li><i class='bx bx-check-circle'></i> Implemented GAN for personalized meal planning</li>
-                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, React.js, Django, AR Core, OpenCV</li>
-                                    </ul>
+                                    <h3 class="work__title" itemprop="name">🏃 TrackFit</h3>
+                                    <div itemprop="description">
+                                        <ul class="work__list">
+                                            <li><i class='bx bx-check-circle'></i> AR-powered fitness app with posture correction</li>
+                                            <li><i class='bx bx-check-circle'></i> Implemented GAN for personalized meal planning</li>
+                                            <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, React.js, Django, AR Core, OpenCV</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="work__item" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.team_vision.audio_library ' "     style="cursor: pointer;"            >
+                            <div class="work__item" itemprop="hasPart" itemscope itemtype="http://schema.org/CreativeWork" onclick="window.location.href='https://play.google.com/store/apps/details?id=com.team_vision.audio_library ' "     style="cursor: pointer;"            >
                                 <div class="work__img-container">
                                     <img 
                                         src="assets/img/teamvision.png" 
@@ -325,14 +406,16 @@
                                   
                                 </div>
                                 <div class="work__content">
-                                    <h3 class="work__title">👥 Team Vision Audio Library</h3>
-                                    <ul class="work__list">
-                                        <li><i class='bx bx-check-circle'></i> Audio book platform for visually challenged users</li>
-                                        <li><i class='bx bx-check-circle'></i> Built volunteer upload system with user management</li>
-                                        <li><i class='bx bx-check-circle'></i> Currently used by 100+ visually challenged users and 15+ volunteers</li>
-                                        <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Firebase, Java</li>
-                                        <li><i class='bx bx-link'></i> <a href="https://play.google.com/store/apps/details?id=com.team_vision.audio_library" target="_blank">Available on Play Store</a></li>
-                                    </ul>
+                                    <h3 class="work__title" itemprop="name">👥 Team Vision Audio Library</h3>
+                                    <div itemprop="description">
+                                        <ul class="work__list">
+                                            <li><i class='bx bx-check-circle'></i> Audio book platform for visually challenged users</li>
+                                            <li><i class='bx bx-check-circle'></i> Built volunteer upload system with user management</li>
+                                            <li><i class='bx bx-check-circle'></i> Currently used by 100+ visually challenged users and 15+ volunteers</li>
+                                            <li><i class='bx bx-code-alt'></i> <strong>Tech Stack:</strong> Flutter, Firebase, Java</li>
+                                            <li><i class='bx bx-link'></i> <a href="https://play.google.com/store/apps/details?id=com.team_vision.audio_library" target="_blank">Available on Play Store</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>

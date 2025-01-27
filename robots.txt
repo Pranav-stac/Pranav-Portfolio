@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /*.pdf$
+
+# Allow search engines to crawl images
+Allow: /assets/img/
+
+# Sitemap
+Sitemap: https://pranav-stac.xyz/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 10 
